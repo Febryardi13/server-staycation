@@ -1,0 +1,49 @@
+
+  <!-- Modal -->
+  <div class="modal fade" id="edit-modal-feature" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Edit Feature</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="/admin/item/update/feature?_method=PUT" method="POST" enctype="multipart/form-data">
+              <div class="form-group">
+                    <label for="name">Name</label>
+                    <input 
+                        required 
+                        type="text" 
+                        class="form-control name" 
+                        name="name" 
+                        placeholder="Enter name"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="account">Quantity</label>
+                    <input 
+                        required 
+                        type="number" 
+                        class="form-control qty" 
+                        name="qty" 
+                        placeholder="Enter quantity"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="image">Image</label>
+                    <input type="file" class="form-control" name="image">
+                    <span>Choose picture for update image</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input type="hidden" class="id" name="id">
+                <input hidden type="text" value="<%= itemId %>" name="itemId">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Edit Data</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>

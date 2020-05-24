@@ -1,7 +1,6 @@
 const multer = require("multer");
 const path = require("path");
 const fs = require("fs");
-// import uuid from "uuid/v4";
 
 const storageMultiple = multer.diskStorage({
   destination: function (req, file, cb) {

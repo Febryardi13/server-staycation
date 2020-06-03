@@ -189,7 +189,6 @@ module.exports = {
             if(req.files.length > 0 ) {
                 for(let i = 0; i < item.imageId.length; i++){
                     const imageUpdate = await Image.findOne({ _id : item.imageId[i]._id })
-                    console.log(imageUpdate)
                     await fs.unlink(path.join(`public/${imageUpdate.imageUrl}`))
                     imageUpdate.imageUrl = `images/${req.files[i].filename}`
                     await imageUpdate.save()
@@ -343,7 +342,6 @@ module.exports = {
             res.redirect(`/admin/item/show-detail-item/${itemId}`)
         }
     },
-
 
     addActivity : async (req, res) => {
         const { name, type, itemId } = req.body

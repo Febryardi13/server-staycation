@@ -9,9 +9,10 @@ const flash = require('connect-flash');
 const cors = require("cors")
 
 //Import connect mongoose
+// mongodb://localhost:27017/db_staycation
 // mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority
 const mongoose = require("mongoose");
-mongoose.connect('mongodb://localhost:27017/db_staycation', {
+mongoose.connect('mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

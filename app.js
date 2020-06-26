@@ -9,8 +9,9 @@ const flash = require('connect-flash');
 const cors = require("cors")
 
 //Import connect mongoose
+// mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority
 const mongoose = require("mongoose");
-mongoose.connect('mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority', {
+mongoose.connect('mongodb://localhost:27017/db_staycation', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -49,7 +50,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 //admin
-app.use('/admin', adminRouter);
+app.use('/admin', cors(), adminRouter);
 app.use('/api/v1/member', apiRouter);
 
 // catch 404 and forward to error handler

@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
 // seeder.connect('mongodb://127.0.0.1:27017/db_staycation', {
-seeder.connect('mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority', {
+seeder.connect('mongodb+srv://staycationdb:060612fm@cluster0-1zxqz.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: true,
@@ -98,27 +98,27 @@ var data = [
         ],
         featureId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa09') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa10') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa11') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa12') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa13') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa14') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa15') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa16') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb05') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb06') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb07') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb08') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd04') }
         ],
         categoryId: '5e96cbe292b97300fc901111'
       },
@@ -144,27 +144,27 @@ var data = [
         ],
         featureId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa09') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa10') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa11') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa12') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa13') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa14') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa15') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa16') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd05') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd06') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd07') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd08') }
         ],
         categoryId: '5e96cbe292b97300fc901111'
       },
@@ -207,10 +207,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd09') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd10') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd11') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd12') }
         ],
         categoryId: '5e96cbe292b97300fc901111'
       },
@@ -253,10 +253,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd13') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd14') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd15') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb16') }
         ],
         categoryId: '5e96cbe292b97300fc901111'
       },
@@ -299,10 +299,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd17') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd18') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd19') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd20') }
         ],
         categoryId: '5e96cbe292b97300fc901112'
       },
@@ -345,10 +345,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd21') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd22') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd23') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd24') }
         ],
         categoryId: '5e96cbe292b97300fc901112'
       },
@@ -391,10 +391,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd25') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd26') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd27') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd28') }
         ],
         categoryId: '5e96cbe292b97300fc901112'
       },
@@ -437,10 +437,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd29') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd30') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd31') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd32') }
         ],
         categoryId: '5e96cbe292b97300fc901112'
       },
@@ -483,10 +483,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd33') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd34') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd35') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd36') }
         ],
         categoryId: '5e96cbe292b97300fc901113'
       },
@@ -529,10 +529,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd37') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd38') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd39') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd40') }
         ],
         categoryId: '5e96cbe292b97300fc901113'
       },
@@ -575,10 +575,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd41') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd42') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd43') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd43') }
         ],
         categoryId: '5e96cbe292b97300fc901113'
       },
@@ -621,10 +621,10 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd45') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd46') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd47') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd48') }
         ],
         categoryId: '5e96cbe292b97300fc901113'
       },
@@ -857,13 +857,12 @@ var data = [
         imageUrl: 'images/feature-8.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
       },
+    
+
       // item 2
-
-
-
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa09'),
         name: 'bathroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
@@ -871,7 +870,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa10'),
         name: 'bedroom',
         qty: 2,
         imageUrl: 'images/feature-2.png',
@@ -879,7 +878,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa11'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -887,7 +886,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa12'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -895,7 +894,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa13'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -903,7 +902,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa14'),
         name: 'television',
         qty: 2,
         imageUrl: 'images/feature-6.png',
@@ -911,7 +910,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa15'),
         name: 'unit ready',
         qty: 3,
         imageUrl: 'images/feature-7.png',
@@ -919,7 +918,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa16'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',
@@ -930,7 +929,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa17'),
         name: 'bathroom',
         qty: 3,
         imageUrl: 'images/feature-1.png',
@@ -938,7 +937,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa18'),
         name: 'bedroom',
         qty: 3,
         imageUrl: 'images/feature-2.png',
@@ -946,7 +945,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa19'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -954,7 +953,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa20'),
         name: 'livingroom',
         qty: 2,
         imageUrl: 'images/feature-4.png',
@@ -962,7 +961,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa21'),
         name: 'refrigrator',
         qty: 2,
         imageUrl: 'images/feature-5.png',
@@ -970,7 +969,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa22'),
         name: 'television',
         qty: 3,
         imageUrl: 'images/feature-6.png',
@@ -978,7 +977,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa23'),
         name: 'unit ready',
         qty: 4,
         imageUrl: 'images/feature-7.png',
@@ -986,7 +985,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa24'),
         name: 'mbp/s',
         qty: 2,
         imageUrl: 'images/feature-8.png',
@@ -996,7 +995,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa25'),
         name: 'bathroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
@@ -1004,7 +1003,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa26'),
         name: 'bedroom',
         qty: 1,
         imageUrl: 'images/feature-2.png',
@@ -1012,7 +1011,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa27'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1020,7 +1019,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa28'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1028,7 +1027,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa29'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1036,7 +1035,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa30'),
         name: 'television',
         qty: 2,
         imageUrl: 'images/feature-6.png',
@@ -1044,7 +1043,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa31'),
         name: 'unit ready',
         qty: 2,
         imageUrl: 'images/feature-7.png',
@@ -1052,7 +1051,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa32'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',
@@ -1062,7 +1061,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa33'),
         name: 'bathroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
@@ -1070,7 +1069,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa34'),
         name: 'bedroom',
         qty: 1,
         imageUrl: 'images/feature-2.png',
@@ -1078,7 +1077,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa35'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1086,7 +1085,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa36'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1094,7 +1093,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa37'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1102,7 +1101,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa38'),
         name: 'television',
         qty: 2,
         imageUrl: 'images/feature-6.png',
@@ -1110,7 +1109,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa39'),
         name: 'unit ready',
         qty: 2,
         imageUrl: 'images/feature-7.png',
@@ -1118,7 +1117,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa40'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',
@@ -1129,7 +1128,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa41'),
         name: 'bathroom',
         qty: 1,
         imageUrl: 'images/feature-1.png',
@@ -1137,7 +1136,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa42'),
         name: 'bedroom',
         qty: 2,
         imageUrl: 'images/feature-2.png',
@@ -1145,7 +1144,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa43'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1153,7 +1152,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa44'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1161,7 +1160,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa45'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1169,7 +1168,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa46'),
         name: 'television',
         qty: 1,
         imageUrl: 'images/feature-6.png',
@@ -1177,7 +1176,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa47'),
         name: 'unit ready',
         qty: 3,
         imageUrl: 'images/feature-7.png',
@@ -1185,7 +1184,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa48'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',
@@ -1195,7 +1194,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa49'),
         name: 'bathroom',
         qty: 3,
         imageUrl: 'images/feature-1.png',
@@ -1203,7 +1202,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa50'),
         name: 'bedroom',
         qty: 5,
         imageUrl: 'images/feature-2.png',
@@ -1211,7 +1210,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa51'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1219,7 +1218,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa52'),
         name: 'livingroom',
         qty: 2,
         imageUrl: 'images/feature-4.png',
@@ -1227,7 +1226,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa53'),
         name: 'refrigrator',
         qty: 2,
         imageUrl: 'images/feature-5.png',
@@ -1235,7 +1234,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa54'),
         name: 'television',
         qty: 2,
         imageUrl: 'images/feature-6.png',
@@ -1243,7 +1242,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa55'),
         name: 'unit ready',
         qty: 2,
         imageUrl: 'images/feature-7.png',
@@ -1251,7 +1250,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa56'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',
@@ -1263,7 +1262,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa57'),
         name: 'bathroom',
         qty: 3,
         imageUrl: 'images/feature-1.png',
@@ -1271,7 +1270,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa58'),
         name: 'bedroom',
         qty: 3,
         imageUrl: 'images/feature-2.png',
@@ -1279,7 +1278,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa59'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1287,7 +1286,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa60'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1295,7 +1294,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa61'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1303,7 +1302,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa62'),
         name: 'television',
         qty: 1,
         imageUrl: 'images/feature-6.png',
@@ -1311,7 +1310,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa63'),
         name: 'unit ready',
         qty: 3,
         imageUrl: 'images/feature-7.png',
@@ -1319,7 +1318,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa64'),
         name: 'mbp/s',
         qty: 2,
         imageUrl: 'images/feature-8.png',
@@ -1330,7 +1329,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa65'),
         name: 'bathroom',
         qty: 3,
         imageUrl: 'images/feature-1.png',
@@ -1338,7 +1337,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa66'),
         name: 'bedroom',
         qty: 3,
         imageUrl: 'images/feature-2.png',
@@ -1346,7 +1345,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa67'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1354,7 +1353,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa68'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1362,7 +1361,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa69'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1370,7 +1369,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa70'),
         name: 'television',
         qty: 1,
         imageUrl: 'images/feature-6.png',
@@ -1378,7 +1377,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa71'),
         name: 'unit ready',
         qty: 3,
         imageUrl: 'images/feature-7.png',
@@ -1386,7 +1385,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa72'),
         name: 'mbp/s',
         qty: 2,
         imageUrl: 'images/feature-8.png',
@@ -1397,7 +1396,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa73'),
         name: 'bathroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
@@ -1405,7 +1404,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa74'),
         name: 'bedroom',
         qty: 2,
         imageUrl: 'images/feature-2.png',
@@ -1413,7 +1412,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa75'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1421,7 +1420,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa76'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1429,7 +1428,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa77'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1437,7 +1436,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa78'),
         name: 'television',
         qty: 1,
         imageUrl: 'images/feature-6.png',
@@ -1445,7 +1444,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa79'),
         name: 'unit ready',
         qty: 2,
         imageUrl: 'images/feature-7.png',
@@ -1453,7 +1452,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa80'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',
@@ -1463,7 +1462,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa81'),
         name: 'bathroom',
         qty: 5,
         imageUrl: 'images/feature-1.png',
@@ -1471,7 +1470,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa82'),
         name: 'bedroom',
         qty: 6,
         imageUrl: 'images/feature-2.png',
@@ -1479,7 +1478,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa83'),
         name: 'dining room',
         qty: 2,
         imageUrl: 'images/feature-3.png',
@@ -1487,7 +1486,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa84'),
         name: 'livingroom',
         qty: 2,
         imageUrl: 'images/feature-4.png',
@@ -1495,7 +1494,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa85'),
         name: 'refrigrator',
         qty: 2,
         imageUrl: 'images/feature-5.png',
@@ -1503,7 +1502,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa86'),
         name: 'television',
         qty: 3,
         imageUrl: 'images/feature-6.png',
@@ -1511,7 +1510,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa87'),
         name: 'unit ready',
         qty: 4,
         imageUrl: 'images/feature-7.png',
@@ -1519,7 +1518,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa88'),
         name: 'mbp/s',
         qty: 2,
         imageUrl: 'images/feature-8.png',
@@ -1529,7 +1528,7 @@ var data = [
 
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa89'),
         name: 'bathroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
@@ -1537,7 +1536,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa90'),
         name: 'bedroom',
         qty: 2,
         imageUrl: 'images/feature-2.png',
@@ -1545,7 +1544,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa91'),
         name: 'dining room',
         qty: 1,
         imageUrl: 'images/feature-3.png',
@@ -1553,7 +1552,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa92'),
         name: 'livingroom',
         qty: 1,
         imageUrl: 'images/feature-4.png',
@@ -1561,7 +1560,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa93'),
         name: 'refrigrator',
         qty: 1,
         imageUrl: 'images/feature-5.png',
@@ -1569,7 +1568,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa94'),
         name: 'television',
         qty: 1,
         imageUrl: 'images/feature-6.png',
@@ -1577,7 +1576,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa95'),
         name: 'unit ready',
         qty: 2,
         imageUrl: 'images/feature-7.png',
@@ -1585,7 +1584,7 @@ var data = [
       },
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa96'),
         name: 'mbp/s',
         qty: 1,
         imageUrl: 'images/feature-8.png',

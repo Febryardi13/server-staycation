@@ -12,7 +12,7 @@ const cors = require("cors")
 // mongodb://localhost:27017/db_staycation
 // mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority
 const mongoose = require("mongoose");
-mongoose.connect('mongodb+srv://staycationdb:060612fm@cluster0-1zxqz.mongodb.net/db_staycation?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://staycationdb:bwamern@cluster0-1zxqz.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

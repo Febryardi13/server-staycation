@@ -550,11 +550,11 @@ var data = [
         unit: 'night',
         imageId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd32') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd30') },
           // done
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd31') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd33') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd32') }
         ],
         featureId: [
           // done
@@ -595,11 +595,11 @@ var data = [
         description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
         unit: 'night',
         imageId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd36') },
-          // done
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd34') },
           // done
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd35') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd36') },
           // done
         ],
         featureId: [
@@ -639,56 +639,56 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1'),
-        imageUrl: 'images/apartment-with-kitchen1a.jpg'
+        imageUrl: 'images/house-with-backtard1a.jpg'
       },
       // done
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2'),
-        imageUrl: 'images/apartment-with-kitchen1b.jpg'
+        imageUrl: 'images/house-with-backtard1b.jpg'
       },
       // done
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3'),
-        imageUrl: 'images/apartment-with-kitchen1c.jpg'
+        imageUrl: 'images/house-with-backtard1c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb4'),
-        imageUrl: 'images/apartment-with-kitchen2a.jpg'
+        imageUrl: 'images/house-with-backtard2a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb5'),
-        imageUrl: 'images/apartment-with-kitchen2b.jpg'
+        imageUrl: 'images/house-with-backtard2b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb6'),
-        imageUrl: 'images/apartment-with-kitchen2c.jpg'
+        imageUrl: 'images/house-with-backtard2c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb7'),
-        imageUrl: 'images/apartment-with-kitchen3a.jpg'
+        imageUrl: 'images/house-with-backtard3a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb8'),
-        imageUrl: 'images/apartment-with-kitchen3b.jpg'
+        imageUrl: 'images/house-with-backtard3b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb9'),
-        imageUrl: 'images/apartment-with-kitchen3c.jpg'
+        imageUrl: 'images/house-with-backtard3c.jpg'
       },
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd10'),
-        imageUrl: 'images/apartment-with-kitchen4a.jpg'
+        imageUrl: 'images/house-with-backtard4a.jpg'
       },
       // done
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd11'),
-        imageUrl: 'images/apartment-with-kitchen4b.jpg'
+        imageUrl: 'images/house-with-backtard4b.jpg'
       },
       // done
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd12'),
-        imageUrl: 'images/apartment-with-kitchen4c.jpg'
+        imageUrl: 'images/house-with-backtard4c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd13'),
@@ -700,7 +700,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd15'),
-        imageUrl: 'images/hotel-with-livingroom1c.jpg'
+        imageUrl: 'images/hotel-with-livingroom2c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd16'),
@@ -712,74 +712,78 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd18'),
-        imageUrl: 'images/hotel-with-livingroom3a.jpg'
+        imageUrl: 'images/hotel-with-livingroom2c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd19'),
-        imageUrl: 'images/hotel-with-livingroom3b.jpg'
+        imageUrl: 'images/hotel-with-livingroom3a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd20'),
-        imageUrl: 'images/hotel-with-livingroom3c.jpg'
+        imageUrl: 'images/hotel-with-livingroom3b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd21'),
-        imageUrl: 'images/hotel-with-livingroom4a.jpg'
+        imageUrl: 'images/hotel-with-livingroom3c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd22'),
-        imageUrl: 'images/hotel-with-livingroom4b.jpg'
+        imageUrl: 'images/hotel-with-livingroom4a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd23'),
-        imageUrl: 'images/hotel-with-livingroom4c.jpg'
+        imageUrl: 'images/hotel-with-livingroom4b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd24'),
-        imageUrl: 'images/apartment-with-kitchen1a.jpg'
+        imageUrl: 'images/hotel-with-livingroomc.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd25'),
-        imageUrl: 'images/apartment-with-kitchen1b.jpg'
+        imageUrl: 'images/apartment-with-kitchen1a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd26'),
-        imageUrl: 'images/apartment-with-kitchen1c.jpg'
+        imageUrl: 'images/apartment-with-kitchen1b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd27'),
-        imageUrl: 'images/apartment-with-kitchen2a.jpg'
+        imageUrl: 'images/apartment-with-kitchen1c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd28'),
-        imageUrl: 'images/apartment-with-kitchen2b.jpg'
+        imageUrl: 'images/apartment-with-kitchen2a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd29'),
-        imageUrl: 'images/apartment-with-kitchen2c.jpg'
+        imageUrl: 'images/apartment-with-kitchen2b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd30'),
-        imageUrl: 'images/apartment-with-kitchen3a.jpg'
+        imageUrl: 'images/apartment-with-kitchen2c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd31'),
-        imageUrl: 'images/apartment-with-kitchen3b.jpg'
+        imageUrl: 'images/apartment-with-kitchen3a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd32'),
-        imageUrl: 'images/apartment-with-kitchen3c.jpg'
+        imageUrl: 'images/apartment-with-kitchen3b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd33'),
-        imageUrl: 'images/apartment-with-kitchen4a.jpg'
+        imageUrl: 'images/apartment-with-kitchen3c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd34'),
-        imageUrl: 'images/apartment-with-kitchen4b.jpg'
+        imageUrl: 'images/apartment-with-kitchen4a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd35'),
+        imageUrl: 'images/apartment-with-kitchen4b.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd36'),
         imageUrl: 'images/apartment-with-kitchen4c.jpg'
       }
     ]
@@ -1597,28 +1601,28 @@ var data = [
     'documents': [
       // done
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd01'),
         name: 'Ballon Hot Air',
         type: 'Nature',
         imageUrl: 'images/activity-1.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd02'),
         name: 'Lake a Toba',
         type: 'Lake',
         imageUrl: 'images/activity-6.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd03'),
         name: 'Old Building Country',
         type: 'History',
         imageUrl: 'images/activity-14.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd04'),
         name: 'Basbeball Stadium A7',
         type: 'Sport',
         imageUrl: 'images/activity-4.jpg',
@@ -1626,28 +1630,28 @@ var data = [
       },
       // done 2
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb05'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd05'),
         name: 'Green Lake',
         type: 'Nature',
         imageUrl: 'images/activity-5.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb06'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd06'),
         name: 'Ballon Hot Air Savana',
         type: 'Nature',
         imageUrl: 'images/activity-2.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb07'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd07'),
         name: 'Gym & Go Healty',
         type: 'Sport',
         imageUrl: 'images/activity-9.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb08'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd08'),
         name: 'Labour and Wait',
         type: 'Transportation',
         imageUrl: 'images/activity-19.jpg',
@@ -1655,28 +1659,28 @@ var data = [
       },
       // Done 3
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb09'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd09'),
         name: 'Museum National',
         type: 'History',
         imageUrl: 'images/activity-13.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902224'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb10'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd10'),
         name: 'Garden City',
         type: 'Nature',
         imageUrl: 'images/activity-15.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902224'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb11'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd11'),
         name: 'Gymnastic Hendrio',
         type: 'Sport',
         imageUrl: 'images/activity-10.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902224'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb12'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd12'),
         name: 'Food Station',
         type: 'Food & Drink',
         imageUrl: 'images/activity-19.jpg',
@@ -1684,28 +1688,28 @@ var data = [
       },
       // Done 4
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb13'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd13'),
         name: 'Sanurty Beach',
         type: 'Beach',
         imageUrl: 'images/activity-11.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902225'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb14'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd14'),
         name: 'Garden City',
         type: 'Nature',
         imageUrl: 'images/activity-15.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902225'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb15'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd15'),
         name: 'Museum Hagufde',
         type: 'History',
         imageUrl: 'images/activity-10.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902225'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb16'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd16'),
         name: 'Colasium Music Show',
         type: 'Entertainment',
         imageUrl: 'images/activity-24.jpg',
@@ -1713,28 +1717,28 @@ var data = [
       },
       // Done 5
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb17'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd17'),
         name: 'Sanurty Beach',
         type: 'Beach',
         imageUrl: 'images/activity-11.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902226'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb18'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd18'),
         name: 'Garden City',
         type: 'Nature',
         imageUrl: 'images/activity-15.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902226'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb19'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd19'),
         name: 'Museum Hagufde',
         type: 'History',
         imageUrl: 'images/activity-10.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902226'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb20'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd20'),
         name: 'Colasium Music Show',
         type: 'Entertainment',
         imageUrl: 'images/activity-24.jpg',
@@ -1742,28 +1746,28 @@ var data = [
       },
       // Done 6
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb21'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd21'),
         name: 'Museum Historical National',
         type: 'History',
         imageUrl: 'images/activity-14.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902227'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb22'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd22'),
         name: 'Sunset Beach So Good',
         type: 'Nature',
         imageUrl: 'images/activity-6.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902227'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb23'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd23'),
         name: 'Savana Green',
         type: 'Nature',
         imageUrl: 'images/activity-8.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902227'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb24'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd24'),
         name: 'Rainbow Building Cool',
         type: 'City Center',
         imageUrl: 'images/activity-25.jpg',
@@ -1771,28 +1775,28 @@ var data = [
       },
       // Done 7
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb25'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd25'),
         name: 'Labour and Wait 991',
         type: 'Transportation',
         imageUrl: 'images/activity-21.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902228'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb26'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd26'),
         name: 'Museum Dinosaurs National',
         type: 'History',
         imageUrl: 'images/activity-12.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902228'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb27'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd27'),
         name: 'Food Station 99',
         type: 'Food & Drink',
         imageUrl: 'images/activity-23.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902228'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb28'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd28'),
         name: 'Beach View Beautiful',
         type: 'Beach',
         imageUrl: 'images/activity-11.jpg',
@@ -1800,28 +1804,28 @@ var data = [
       },
       // Done 8
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb29'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd29'),
         name: 'Labour and Wait 991',
         type: 'Transportation',
         imageUrl: 'images/activity-21.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902229'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb30'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd30'),
         name: 'Museum Dinosaurs National',
         type: 'History',
         imageUrl: 'images/activity-12.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902229'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb31'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd31'),
         name: 'Food Station 99',
         type: 'Food & Drink',
         imageUrl: 'images/activity-23.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902229'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb32'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd32'),
         name: 'Beach View Beautiful',
         type: 'Beach',
         imageUrl: 'images/activity-11.jpg',
@@ -1829,28 +1833,28 @@ var data = [
       },
       // Done 9
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb33'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd33'),
         name: 'Gym For Healty',
         type: 'Sport',
         imageUrl: 'images/activity-10.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902230'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb34'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd34'),
         name: 'City Center View',
         type: 'Public',
         imageUrl: 'images/activity-16.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902230'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb35'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd35'),
         name: 'Basball Stadium For City',
         type: 'Sport',
         imageUrl: 'images/activity-4.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902230'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb36'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd36'),
         name: 'Food Station Famouse',
         type: 'Food & Drink',
         imageUrl: 'images/activity-7.jpg',
@@ -1858,28 +1862,28 @@ var data = [
       },
       // Done 10
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb37'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd37'),
         name: 'Train Station',
         type: 'Transportation',
         imageUrl: 'images/activity-21.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902231'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb38'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd38'),
         name: 'City Museum National',
         type: 'History',
         imageUrl: 'images/activity-13.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902231'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb39'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd39'),
         name: 'Rainbow City Center',
         type: 'Public',
         imageUrl: 'images/activity-25.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902231'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb40'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd40'),
         name: 'Drama Colosium Show',
         type: 'Entertaiment',
         imageUrl: 'images/activity-24.jpg',
@@ -1887,28 +1891,28 @@ var data = [
       },
       // Done 11
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb41'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd41'),
         name: 'Club & Beverage',
         type: 'Entertainment',
         imageUrl: 'images/activity-3.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902232'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb42'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd42'),
         name: 'Food Station',
         type: 'Food & Drink',
         imageUrl: 'images/activity-23.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902232'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb43'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd43'),
         name: 'City Center Garden',
         type: 'Nature',
         imageUrl: 'images/activity-15.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902232'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb44'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd44'),
         name: 'Shopping Mall',
         type: 'Shopping',
         imageUrl: 'images/activity-18.jpg',
@@ -1916,28 +1920,28 @@ var data = [
       },
       // Done 12
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb45'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd45'),
         name: 'Gym & Sport',
         type: 'Sport',
         imageUrl: 'images/activity-9.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902233'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb46'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd46'),
         name: 'Street View',
         type: 'Public',
         imageUrl: 'images/activity-17.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902233'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb47'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd47'),
         name: 'Dino Mueseum',
         type: 'History',
         imageUrl: 'images/activity-12.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902233'),
       },
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb48'),
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90dd48'),
         name: 'Monorail Train',
         type: 'Transportation',
         imageUrl: 'images/activity-21.jpg',

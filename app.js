@@ -13,6 +13,7 @@ const cors = require("cors")
 // mongodb+srv://admstaycation:060612Fm@cluster0-t77dc.mongodb.net/db_staycation?retryWrites=true&w=majority
 const mongoose = require("mongoose");
 mongoose.connect('mongodb://adm-staycation:rahasia@cluster0-shard-00-00.t77dc.mongodb.net:27017,cluster0-shard-00-01.t77dc.mongodb.net:27017,cluster0-shard-00-02.t77dc.mongodb.net:27017/db_staycation?ssl=true&replicaSet=atlas-10sdlf-shard-0&authSource=admin&retryWrites=true&w=majority', {
+// mongoose.connect('mongodb://127.0.0.1:27017/db_staycation', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

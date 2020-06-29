@@ -2,7 +2,7 @@ var seeder = require('mongoose-seed');
 var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
-// seeder.connect('mongodb://127.0.0.1:27017/staycation_db', {
+// seeder.connect('mongodb://127.0.0.1:27017/db_staycation', {
 seeder.connect('mongodb://adm-staycation:rahasia@cluster0-shard-00-00.t77dc.mongodb.net:27017,cluster0-shard-00-01.t77dc.mongodb.net:27017,cluster0-shard-00-02.t77dc.mongodb.net:27017/db_staycation?ssl=true&replicaSet=atlas-10sdlf-shard-0&authSource=admin&retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true,
@@ -736,56 +736,52 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd24'),
-        imageUrl: 'images/house-with-backtard1a.jpg'
+        imageUrl: 'images/apartment-with-kitchen1a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd25'),
-        imageUrl: 'images/house-with-backtard1b.jpg'
+        imageUrl: 'images/apartment-with-kitchen1b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd26'),
-        imageUrl: 'images/house-with-backtard1c.jpg'
+        imageUrl: 'images/apartment-with-kitchen1c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd27'),
-        imageUrl: 'images/house-with-backtard2a.jpg'
+        imageUrl: 'images/apartment-with-kitchen2a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd28'),
-        imageUrl: 'images/house-with-backtard2b.jpg'
+        imageUrl: 'images/apartment-with-kitchen2b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd29'),
-        imageUrl: 'images/house-with-backtard2c.jpg'
+        imageUrl: 'images/apartment-with-kitchen2c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd30'),
-        imageUrl: 'images/house-with-backtard3a.jpg'
+        imageUrl: 'images/apartment-with-kitchen3a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd31'),
-        imageUrl: 'images/house-with-backtard3b.jpg'
+        imageUrl: 'images/apartment-with-kitchen3b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd32'),
-        imageUrl: 'images/house-with-backtard3c.jpg'
+        imageUrl: 'images/apartment-with-kitchen3c.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd33'),
-        imageUrl: 'images/house-with-backtard4a.jpg'
+        imageUrl: 'images/apartment-with-kitchen4a.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd34'),
-        imageUrl: 'images/house-with-backtard4b.jpg'
+        imageUrl: 'images/apartment-with-kitchen4b.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd35'),
-        imageUrl: 'images/house-with-backtard4c.jpg'
-      },
-      {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd36'),
-        imageUrl: 'images/house-with-backtard4c.jpg'
-      },
+        imageUrl: 'images/apartment-with-kitchen4c.jpg'
+      }
     ]
   },
   // end image
